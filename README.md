@@ -32,12 +32,6 @@ It uses the **OpenWeather API** to fetch real-time weather data and displays cur
 
 ---
 
-## 📷 Preview
-
-(Add screenshot of your project here)
-
----
-
 ## 🔑 How to Run This Project
 
 1. Clone the repository:
