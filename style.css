@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Dark mode */
+body.dark {
+    background: #121212;
+    color: white;
+}
+
+.app {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 340px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+body.dark .app {
+    background: #1e1e1e;
+    color: white;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 60%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.mode-btn {
+    margin-bottom: 10px;
+    background: black;
+    color: white;
+}
+
+.location-btn {
+    margin-top: 10px;
+    background: #2196F3;
+    color: white;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+.weather-box img {
+    width: 80px;
+}
