@@ -1,6 +1,5 @@
-let apiKey = "41ee0eb7c81053c265360960b3c9ad85";
+let apiKey = "Your API Key";
 
-/* 🌦️ Normal city search */
 function getWeather(cityFromLocation = null) {
 
     let city = cityFromLocation || document.getElementById("cityInput").value.trim();
@@ -43,7 +42,6 @@ function getWeather(cityFromLocation = null) {
 }
 
 
-/* 📍 Auto location weather */
 function getLocationWeather() {
     if (!navigator.geolocation) {
         alert("Geolocation not supported");
@@ -80,7 +78,6 @@ function getLocationWeather() {
 }
 
 
-/* 🌙 Dark mode toggle */
 function toggleMode() {
     document.body.classList.toggle("dark");
 }
